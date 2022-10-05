@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0px;
+  background: #2c333a;
+  font-family: sans-serif;
+}
+.lightup h2{
+  text-align: center;
+  color: #ffffff;
+  margin-top: 70px;
+  text-transform: capitalize;
+}
+
+.bulbImg{
+  max-width: 700px;
+  padding-left: 7rem;
+  margin:  0 auto;
+  display: block;
+  
+}
+
+@media (max-width: 700px) {
+  .bulbImg{
+    padding-left: 1rem;
+    width: 100%;
+  }
+}
